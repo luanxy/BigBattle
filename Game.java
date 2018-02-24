@@ -142,8 +142,6 @@ public class Game {
 
 			while (damage!=0){
 		    
-		        // This operation reduces length
-		        // of every sequence of 1s by one.
 				damage = (damage & (damage << 1));
 		 
 		        count++;
